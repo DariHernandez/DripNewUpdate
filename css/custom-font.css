@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: 'MonumentExtendedRegular';
+    src: url('../fonts/MonumentExtendedRegular.eot');
+    src: url('../fonts/MonumentExtendedRegular.eot') format('embedded-opentype'),
+         url('../fonts/MonumentExtendedRegular.woff2') format('woff2'),
+         url('../fonts/MonumentExtendedRegular.woff') format('woff'),
+         url('../fonts/MonumentExtendedRegular.ttf') format('truetype'),
+         url('../fonts/MonumentExtendedRegular.svg#MonumentExtendedRegular') format('svg');
+}
+@font-face {
+    font-family: 'MonumentExtendedUltrabold';
+    src: url('../fonts/MonumentExtendedUltrabold.eot');
+    src: url('../fonts/MonumentExtendedUltrabold.eot') format('embedded-opentype'),
+         url('../fonts/MonumentExtendedUltrabold.woff2') format('woff2'),
+         url('../fonts/MonumentExtendedUltrabold.woff') format('woff'),
+         url('../fonts/MonumentExtendedUltrabold.ttf') format('truetype'),
+         url('../fonts/MonumentExtendedUltrabold.svg#MonumentExtendedUltrabold') format('svg');
+}
+
+
+
+@font-face {
+    font-family: 'GemstoneRegular400';
+    src: url('../fonts/GemstoneRegular400.eot');
+    src: url('../fonts/GemstoneRegular400.eot') format('embedded-opentype'),
+         url('../fonts/GemstoneRegular400.woff2') format('woff2'),
+         url('../fonts/GemstoneRegular400.woff') format('woff'),
+         url('../fonts/GemstoneRegular400.ttf') format('truetype'),
+         url('../fonts/GemstoneRegular400.svg#GemstoneRegular400') format('svg');
+}

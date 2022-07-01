@@ -1,0 +1,288 @@
+/*For bigger screen then normal 1500px desktop*/
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1560px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1490px) {
+.container {
+    max-width: 1200px;
+  }
+  .drip-hero-content h1 {
+    font-size: 200px;
+}
+
+.drip-nfis-section {
+    background-size: 1268px;
+}
+.drip-roadmap-wrap {
+    padding: 25px;
+}
+.drip-roadmap-wrap p {
+    font-size: 18px;
+}
+
+
+
+.drip-roadmapline {
+    padding: 50px 0;
+    padding-left: 0;
+}
+
+.drip-roadmap-section::before{
+    display: none;
+}
+
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .drip-hero-section {
+        padding: 220px 0 100px;
+    }
+    .drip-hero-content h1 {
+        font-size: 200px;
+    }
+    .drip-hero-content {
+        margin-bottom: 40px;
+    }
+    .drip-hero-thumb-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .drip-hero-thumb-item {
+        margin: 0;
+        flex: 0 0 31%;
+    }
+    a.drip-arrow-bottom {
+        position: inherit;
+        right: inherit;
+        bottom: 0;
+        text-align: center;
+        display: block;
+        margin-top: 50px;
+    }
+
+    .drip-information-content {
+        padding: 0 60px 60px;
+    }
+    .drip-information-content h3 {
+        padding-bottom: 40px;
+    }
+    .drip-information-section {
+        margin-top: 0;
+    }
+    .drip-nfis-section {
+        padding: 200px 0;
+    }
+    .drip-section-title h2 {
+        font-size: 90px;
+        -webkit-text-stroke: 2px #fff;
+    }
+    .drip-nfis-section {
+        background-size: 1268px;
+    }
+
+    .drip-roadmap-section {
+        padding: 160px 0;
+    }
+ 
+    .drip-roadmap-wrap p {
+        font-size: 17px;
+    }
+
+    .drip-roadmap-wrap {
+        padding: 19px 25px;
+    
+    }
+    .drip-roadmap-wrap h3 {
+        font-size: 50px;
+    }
+
+}
+
+
+
+/*For Tablet Layout*/
+@media(max-width: 991px) {
+    .main-menu {
+        display: none; 
+    }
+    .offcanves-menu{
+        display: block;
+    }
+    .menu-bar{
+        display: block;
+    }
+
+    .drip-hero-content h1 {
+        font-size: 150px;
+    }
+    .drip-hero-content p{
+        margin: 0;
+    }
+    .drip-hero-thumb-item{
+        height: 170px;
+    }
+    .drip-information-content {
+        border-radius: 20px 100px 20px 20px;
+    }
+    .drip-information-content h3 {
+        font-size: 50px;
+    }
+    .drip-information-content p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .drip-nfis-section {
+        padding: 100px 0;
+    }
+
+    .drip-nfis-section{
+        background-image: none !important;
+    }
+    .drip-roadmap-section {
+        padding: 100px 0 230px;
+    }
+
+    .drip-roadmap-wrap {
+        padding: 100px;
+        width: 100%;
+    }
+
+    ul.drip-timeline li:nth-child(even)  {
+        transform: none;
+      }
+
+      li.drip-step1:before, li.drip-step2:before, li.drip-step3:before, li.drip-step4:before {
+        content: " ";
+        left: 50%;
+        top: auto;
+        bottom: -115px;
+        transform: translateX(-50%);
+    }
+    ul.drip-timeline li {
+        margin-bottom: 170px;
+    }
+    .drip-roadmap-section::before{
+        content: none;
+    }
+
+}
+
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+
+    header.drip-header-section {
+        padding: 30px 0;
+    }
+    .drip-hero-section {
+        padding: 170px 0 100px;
+    }
+    .drip-hero-content h1 {
+        font-size: 120px;
+        margin-bottom: 20px;
+    }
+    .drip-hero-content h1 span {
+        -webkit-text-stroke: 4px #3066F0;
+    }
+    .drip-hero-content p {
+        font-size: 17px;
+    }
+    .drip-hero-content p img {
+        margin-right: 30px;
+    }
+    .drip-hero-thumb-item {
+        flex: 0 0 48%;
+        margin-bottom: 20px;
+    }
+    .drip-hero-thumb-item:last-child{
+        margin-bottom: 0;
+    }
+    .drip-information-content {
+        padding: 0 20px 40px;
+    }
+    .drip-information-content p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .drip-section-title {
+        margin-bottom: 50px;
+    }
+    .drip-section-title h2 {
+        font-size: 65px;
+    }
+    .drip-team-section {
+        padding: 50px 0 70px;
+        background-size: cover;
+    }
+
+    .drip-roadmap-wrap {
+        padding: 40px;
+    }
+
+    .drip-roadmapline ul {
+        display: block;
+        text-align: center;
+    }
+    .drip-roadmapline ul li{
+        margin-bottom: 20px;
+    }
+    .drip-roadmapline ul li:last-child{
+        margin-bottom: 0;
+    }
+
+    .drip-roadmapline ul:before {
+        top: 50%;
+        left: 54%;
+        width: 10px;
+        height: 94%;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .drip-hero-content h1 {
+        font-size: 80px;
+        margin-bottom: 30px;
+    }
+    .drip-hero-content p {
+        font-size: 15px;
+    }
+    .drip-hero-thumb-wrap {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .drip-hero-thumb-item{
+        height: auto;
+    }
+    ul.drip-footer-menu li a {
+        font-size: 16px;
+    }
+    ul.drip-footer-menu li {
+        margin: 0 10px;
+    }
+    .drip-footer-top h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    
+    }
+
+}
+
+
+/*For 320-384px up Mobile Layout*/
+@media (max-width: 479px) {
+
+
+
+
+}
