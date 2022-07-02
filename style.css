@@ -687,3 +687,14 @@ ul.drip-footer-social li{
   }
 }
 
+/* hero animation */
+.drip-hero-content {
+  opacity: 0;
+  transition-duration: 0.5s;
+  transform: translateY(100px);
+}
+
+.drip-hero-content.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
