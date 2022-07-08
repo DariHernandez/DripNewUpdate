@@ -557,7 +557,8 @@ ul.drip-timeline:before {
 li.drip-step3{
   position: relative;
 }
-li.drip-step1:before{
+
+ul.drip-timeline li.drip-step1 div.img{
   content: " ";
   left: 50%;
   top: 50%;
@@ -567,7 +568,7 @@ li.drip-step1:before{
   transform: translate(-50%, -50%);
   background-image: url(images/01.png);
 }
-li.drip-step2:before{
+ul.drip-timeline li.drip-step2 div.img{
   content: " ";
   left: -11%;
   top: 50%;
@@ -577,7 +578,7 @@ li.drip-step2:before{
   transform: translateX(-50%);
   background-image: url(images/02.png);
 }
-li.drip-step3:before{
+ul.drip-timeline li.drip-step3 div.img{
   content: " ";
   left: 50%;
   top: 50%;
@@ -587,7 +588,7 @@ li.drip-step3:before{
   transform: translate(-50%, -50%);
   background-image: url(images/03.png);
 }
-li.drip-step4:before{
+ul.drip-timeline li.drip-step4 div.img{
   content: " ";
   left: -11%;
   top: 50%;
@@ -597,6 +598,8 @@ li.drip-step4:before{
   transform: translateX(-50%);
   background-image: url(images/01.png);
 }
+
+
 
 
 /* footer section */

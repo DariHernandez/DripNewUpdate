@@ -159,13 +159,6 @@
         transform: none;
       }
 
-      li.drip-step1:before, li.drip-step2:before, li.drip-step3:before, li.drip-step4:before {
-        content: " ";
-        left: 50%;
-        top: auto;
-        bottom: -115px;
-        transform: translateX(-50%);
-    }
     ul.drip-timeline li {
         margin-bottom: 170px;
     }
