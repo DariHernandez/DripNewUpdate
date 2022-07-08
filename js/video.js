@@ -5,34 +5,12 @@ const hero = document.querySelector (".drip-hero-content")
 
 window.onload = async function () {
     // Hide video wrapper when animation is complete
-    await sleep (6)
+    await sleep (5.5)
     hero.classList.add ("fade-in")
     await sleep (1)   
     wrapper_video.classList.add ("hide")
     hero.classList.add ("no-logo")
 }
-
-window.addEventListener('scroll', function(e) {
-    if (is_in_viewport(hero)) {
-        hero.classList.add ("fade-in")
-    } else {
-        hero.classList.remove ("fade-in")
-    }
-})
-
-function is_in_viewport(element) {
-    // Check if element is visible in the page
-    const rect = element.getBoundingClientRect();
-    return (
-        rect.top >= -300
-    );
-}
-
-function sleep(s) {
-    // Wait specific seconds
-    return new Promise(resolve => setTimeout(resolve, s*1000));
-}
-
 
 // Detect screen orientation
 if (window.screen.height > window.screen.width) {
